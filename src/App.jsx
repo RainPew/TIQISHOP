@@ -1,10 +1,12 @@
 import './App.css'
+import Homepage from './pages/homepage/homepage'
+import { BrowserRouter } from 'react-router-dom'
 
 function App() {
   return (
-    <>
-      <h1>TIQISHOP</h1>
-    </>
+    <BrowserRouter>
+      <Homepage />
+    </BrowserRouter>
   )
 }
 
