@@ -1,6 +1,7 @@
 const ROUTERS = {
     USER: {
-        HOME: "home",
+        HOME: "/home",
+        PROFILE:"/profile",
         LOGIN: "/login",
         REGISTER: "/register",
         LOGOUT: "/logout",
@@ -9,3 +10,5 @@ const ROUTERS = {
         HOME: "/admin",
     }
 }
+
+export default ROUTERS
