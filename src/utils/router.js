@@ -1,3 +1,5 @@
-// export const ROUTERS = {
-
-// }
+const ROUTERS = {
+    USER: {
+        HOME: "/home"
+    }
+}
