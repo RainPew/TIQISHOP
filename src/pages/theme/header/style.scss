@@ -41,7 +41,7 @@
 
 .header__top_right {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     padding: 10px 0 13px;
 
@@ -63,7 +63,7 @@
 
         span {
             font-size: 14px;
-            margin-left: 2px;
+            margin-left: 7px;
         }
     }
 

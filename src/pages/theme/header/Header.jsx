@@ -8,48 +8,57 @@ import { Link } from 'react-router-dom';
 
 const Header = (props) => {
     return (
-        <div className='header__top'>
-            <div className='container'>
-                <div className='row'>
-                    <div className="col-6 header__top_left">
-                        <ul>
-                            <li><CgMail /> hoanghuunhanh.rain@gmail.com</li>
-                            <li>Miễn phí ship hàng</li>
-                        </ul>
-                    </div>
-                    <div className="col-6 header__top_right">
-                        <ul>
-                            <li>
-                                <Link to={""}>
-                                    <FaFacebookSquare />
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to={""}>
-                                    <FaTwitter />
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to={""}>
-                                    <FaInstagramSquare />
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to={""}>
-                                    <FaSquareThreads />
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to={""}>
-                                    <FaUserAlt />
-                                </Link>
-                                <span>Đăng Nhập</span>
-                            </li>
-                        </ul>
+        <>
+            <div className='header__top'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className="col-6 header__top_left">
+                            <ul>
+                                <li><CgMail /> hoanghuunhanh.rain@gmail.com</li>
+                                <li>Miễn phí ship hàng</li>
+                            </ul>
+                        </div>
+                        <div className="col-6 header__top_right">
+                            <ul>
+                                <li>
+                                    <Link to={""}>
+                                        <FaFacebookSquare />
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to={""}>
+                                        <FaTwitter />
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to={""}>
+                                        <FaInstagramSquare />
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to={""}>
+                                        <FaSquareThreads />
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to={"profile"}>
+                                        <FaUserAlt />
+                                    </Link>
+                                    <span>Đăng Nhập</span>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <div className='container'>
+                <div className='row'>
+                    <div className="col-xl-3">LOGO</div>
+                    <div className="col-xl-6">MENU</div>
+                    <div className="col-xl-3">GIO HANG</div>
+                </div>
+            </div>
+        </>
     )
 }
 

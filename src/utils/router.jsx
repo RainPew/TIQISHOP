@@ -1,6 +1,6 @@
 const ROUTERS = {
     USER: {
-        HOME: "/home",
+        HOME: "/",
         PROFILE:"/profile",
         LOGIN: "/login",
         REGISTER: "/register",
